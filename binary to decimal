@@ -1,0 +1,14 @@
+
+
+binary_number=[1,0,0,1,1,0,1,1]
+reverse=binary_number[::-1]
+index=0
+sum=0
+while index<len(binary_number):
+    num=reverse[index]
+    r=num*2**index
+    sum+=r
+    index+=1
+print(sum)
+
+   
